@@ -1,0 +1,54 @@
+.contact-container {
+    max-width: 400px;
+    margin: 40px auto; 
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .contact-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Add some weight to labels */
+  }
+  
+  .contact-container input[type="text"],
+  .contact-container input[type="email"],
+  .contact-container textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .contact-container textarea {
+    height: 150px;
+  }
+  
+  .contact-container input[type="submit"] {
+    background-color: #51adeb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out; /* Add a smooth hover effect */
+  }
+  
+  .contact-container input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .contact-container input[type="submit"]:focus {
+    outline: none;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

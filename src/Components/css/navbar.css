@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Navbar {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Navbar nav ul {
+  margin-left: 750px;
+}
+
+.Navbar nav ul li {
+  display: inline-block;
+  margin: 20px;
+}
+
+.pinkycolor a {
+  position: relative;
+  color: rgb(78, 19, 19);
+  background-color: rgb(213, 53, 133);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.Navbar nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.Navbar nav ul li a:hover {
+  transition: 2s;
+  background-color: rgb(188, 125, 247);
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .Navbar nav ul {
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left:60px;
+  }
+
+  .Navbar nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .Navbar nav ul li a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .pinkycolor a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .Navbar nav ul {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Navbar nav ul li {
+    margin: 10px;
+    }
+    
+}
